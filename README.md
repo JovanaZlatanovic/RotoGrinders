@@ -5,7 +5,7 @@
 RotoGrinders Automated UI tests serve to confirm and improve the quality of the application. In this project, we use Cypress and JavaScript.
 
 
-Test sections:
+###Test sections:
 * Sign-up tests
 
 
@@ -20,7 +20,7 @@ The tests directory contains the tests, and there we directly use the steps func
 The test data directory is used to store all test data that we use for assertion.
 
 
-Needed installation locally:
+###Needed installation locally:
 
 Visual Studio
 node.js
@@ -34,17 +34,17 @@ npx cypress install
 Setup tag structure
 tags = {"@smoke or @regression or @healthCheck"}
 
-Page Object Pattern ready
-The Page-Object-Pattern is used in the framework.
 
-Take Screenshots
-On test failures, screenshots will automatically be taken and stored in the work directory. The screenshot files
+###The Page-Object-Pattern is used in the framework.
 
-Credentials
+###Take Screenshots
+On test failures, screenshots will automatically be taken and stored in the work directory.
+
+###Credentials
 All needed data is stored in cypress.env.json.file.
 
 
-Running tests
+###Running tests
 
 "npx cypress run --env environment=${ENVIRONMENT},grepTags=${TAGS} --browser ${BROWSER} --spec ${SPEC}"
 
@@ -57,7 +57,7 @@ npx cypress open --env environment=dev,grepTags=@smoke - smoke tests on dev envi
 Note: cy.viewport (412, 914) provides mobile simulation for Samsung Galaxy A51 / A71, which is used by a large number of people, for this reason, it is taken as an example for these tests. Of course, it is possible to set other resolutions, depending on the testing goals.
 
 
-Jenkins setup
+##Jenkins setup
  1. Jenkins file is created inside project
  2. Jenkins setup: In project folder select "New Item" 
  3. Then select "Pipeline"
