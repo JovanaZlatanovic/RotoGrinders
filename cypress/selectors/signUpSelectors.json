@@ -1,0 +1,7 @@
+{
+    "usernameField": "#username",
+    "emailFieldList": "[type='email']",
+    "passwordField": "#password",
+    "signUpButton": "#sign-up",
+    "rotoGrindersAppModal": "#simplemodal-data > .bdy"
+}
