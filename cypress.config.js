@@ -23,7 +23,6 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
       if (config.env.environment === "dev") {
         config.baseUrl = 'devTest.app/'
-
       }
       else if (config.env.environment === "prod") {
         config.baseUrl = 'prodTest.app/'
