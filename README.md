@@ -32,7 +32,7 @@ npx cypress install
 
 
 Setup tag structure
-tags = {"@smoke or @regression or @healthCheck"}
+tags = {"@smoke or @regression"}
 
 
 ### The Page-Object-Pattern is used in the framework.
@@ -62,7 +62,7 @@ Note: cy.viewport (412, 914) provides mobile simulation for Samsung Galaxy A51 /
  2. Jenkins setup: In project folder select "New Item" 
  3. Then select "Pipeline"
  4. Input project data(Description, GitLab Connection)
- 5. Pipeline --> Definition : Pipeline wcript from SCM; SCM : Git, Repository url: "your path on git from project", Credentials: xxx 
+ 5. Pipeline --> Definition : Pipeline script from SCM; SCM : Git, Repository url: "your path on git from project", Credentials: xxx 
  6. Branches to build : Branch Specifier --> for instance: */main
  7. Repository browser : (Auto)
  8. Script Path : JenkinsFile, Check Lightweight checkout --> Save
