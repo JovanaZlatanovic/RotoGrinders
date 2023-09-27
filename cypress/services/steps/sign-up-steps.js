@@ -95,15 +95,15 @@ export class SignUpSteps {
     }
 
     invalidEmailValidation() {
-        cy.contains(Cypress.env('invalidEmailValidation')).should('be.visible', { force: true });
+        cy.contains(Cypress.env('invalidEmailValidation')).should('be.visible');
     }
 
     invalidUsernameValidation() {
-        cy.contains(Cypress.env('invalidUsernameValidation')).should('be.visible', { force: true });
+        cy.contains(Cypress.env('invalidUsernameValidation')).should('be.visible');
     }
 
     invalidEmailFormatValidation() {
-        cy.contains(Cypress.env('invalidEmailFormatValidation')).should('be.visible', { force: true });
+        cy.contains(Cypress.env('invalidEmailFormatValidation')).should('be.visible');
     }
 }
 
