@@ -1,0 +1,24 @@
+{
+  "name": "rotogrinders",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.2.0"
+  },
+  "dependencies": {
+    "@4tw/cypress-drag-drop": "^2.2.5",
+    "@bahmutov/cy-api": "^2.2.6",
+    "@cypress/grep": "^4.0.0",
+    "cypress-iframe": "^1.0.1",
+    "cypress-map": "^1.21.1",
+    "cypress-mochawesome-reporter": "^3.6.0",
+    "cypress-network-idle": "^1.14.2",
+    "cypress-real-events": "^1.10.3"
+  }
+}
